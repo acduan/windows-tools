@@ -1,0 +1,14 @@
+# 统一行尾：仓库内用 LF，检出时 Windows 用 CRLF
+* text=auto eol=crlf
+
+# PowerShell 脚本保留 UTF-8 BOM（见下方说明），不做编码转换
+*.ps1 text eol=crlf
+
+# C# 源码 / 文档
+*.cs text eol=crlf
+*.md text eol=crlf
+
+# 二进制
+*.png binary
+*.exe binary
+*.ico binary
