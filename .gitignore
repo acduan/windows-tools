@@ -1,0 +1,20 @@
+# 编译产物
+*.exe
+*.dll
+*.pdb
+*.obj
+
+# 运行期生成（每台机器/每个显示器不同，不应入库）
+config.ini
+ramp_*.txt
+
+# 系统 / 编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+.vs/
+.vscode/
+*.user
+*.suo
+bin/
+obj/
